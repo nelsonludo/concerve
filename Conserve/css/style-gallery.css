@@ -1,0 +1,258 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.9)), url(../images/h-billboard.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    margin-top: 130px;
+    padding: 2%;
+    width: 96%;
+    color: #fffffffa;
+
+}
+.sections {
+    padding: 22px;
+    background-color: #0e0e0e52;
+    opacity: 0;
+    transition: .5s;
+}
+
+#about, #projects, #news, #resources{
+    margin-bottom: 80px;
+    transition: .5s;
+    opacity: 0;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform:uppercase ;
+}
+.img-box{
+    width: 200px;
+    height: 240px;
+}
+
+.img1{
+    display: flex;
+    flex-direction: column;
+    margin: 0 6.5% 0 0;
+    width: 45%;
+}
+
+.box-imgs{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #ffffffa8;
+    padding-top: 27px;
+}
+
+.news{
+    width: 220px;
+    height: 150px;
+}
+.news1{
+    margin: 0 5.5% 0 0;
+}
+
+.img-txt{
+    font-size: 20px;
+    padding: 0 0 5px 0;
+}
+
+.div1, .div2{
+    display: flex;
+    flex-direction: row;
+    padding-right: 5px;
+}
+
+.scroll-g-active{
+    opacity: 1;
+}
+
+/*responsive*/
+@media screen and (min-width:1200px) {
+    .box-imgs {
+        padding-left: 6%;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .box-imgs {
+        padding-left: 10%;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .sections {
+        width: 70%;
+        margin: 0 13%;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .img1 {
+        margin: 0 5.5% 0 0;
+    }
+    .news {
+        width: 210px;
+        height: 140px;
+    }
+}
+@media screen and (max-width:900px) {
+    .news {
+        width: 192px;
+        height: 130px;
+    }
+}
+@media screen and (max-width:850px) {
+    section {
+        padding: 2% 0;
+    }
+    .sections {
+        width: 98%;
+    }
+    .img-box {
+        width: 180px;
+        height: 220px;
+    }
+    .news {
+        width: 192px;
+        height: 130px;
+    }
+}
+@media screen and (max-width:800px) {
+    .news {
+        width: 178px;
+        height: 123px;
+    }
+}
+
+@media screen and (max-width: 765px){
+    .img-box {
+        width: 166px;
+        height: 220px;
+    }
+    .news {
+        width: 175px;
+        height: 130px;
+    }
+}
+@media screen and (max-width: 700px){
+    .img-box {
+        width: 154px;
+        height: 211px;
+    }
+    .news {
+        width: 157px;
+        height: 114px;
+    }
+    .img-txt {
+        font-size: 18px;
+    }
+    .sections {
+        width: 97.5%;
+    }
+}
+@media screen and (max-width: 650px){
+    .box-imgs {
+        flex-direction: column;
+        padding-left: 7%;
+    }
+    .img1 {
+        width: 37%;
+        padding-right: 77px;
+    }
+    .box-imgs {
+        padding-left: 12%;
+    }
+    .img-box {
+        width: 200px;
+        height: 284px;
+    }
+    .news {
+        width: 200px;
+        height: 140px;
+    }
+    .img-txt {
+        padding: 41px 0 18px 0;
+    }
+    section {
+        width: 92%;
+    }
+    .sections {
+        padding: 22px 45px 22px 22px;
+        background-color: #0e0e0e52;
+    }
+}
+@media screen and (max-width: 600px){
+    .sections {
+        padding: 22px 56px 22px 22px;
+    }
+    section {
+        width: 89%;
+    }
+    .box-imgs {
+        padding-left: 6%;
+    }
+}
+@media screen and (max-width: 550px){
+    section {
+        width: 87%;
+    }
+    .sections {
+        padding: 22px 60px 22px 22px;
+    }
+}
+@media screen and (max-width: 500px){
+    .div1, .div2 {
+        flex-direction: column;
+        padding-left: 90px;
+    }
+    .img1 {
+        width: 45%;
+    }
+    section {
+        width: 85%;
+    }
+    .sections {
+        padding: 22px 64px 22px 22px;
+    }
+}
+@media screen and (max-width: 450px){
+    .img1 {
+        width: 55%;
+    }
+    section {
+        width: 82%;
+    }
+    .div1, .div2 {
+        padding-left: 75px;
+    }
+}
+@media screen and (max-width: 410px){
+    section {
+        width: 79%;
+    }
+}
+@media screen and (max-width: 400px){
+    .box-imgs {
+        padding-left: 0%;
+    }
+}
+@media screen and (max-width: 350px){
+    .div1, .div2 {
+        padding-left: 33px;
+    }
+}
+@media screen and (max-width: 300px){
+    .img1 {
+        width: 80%;
+    }
+    section {
+        width: 71%;
+    }
+}

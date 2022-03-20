@@ -1,0 +1,382 @@
+body{
+    background-color: rgba(39, 81, 197, 0.068);
+    overflow-x: none;
+}
+
+section{
+    margin-top: 200px;
+    margin-left: 12.25%;
+    border-right: 1px solid rgba(10, 33, 95, 0.322);
+    width: 70%;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    text-transform:uppercase ;
+}
+.news-box{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(42, 52, 125, 0.068);
+    padding: 15px;
+    width: 80%;
+    margin-top: 30px;
+}
+.box1-img{
+    width: 350px;
+    height: 200px;
+}
+
+.box1{
+    position: relative;
+}
+
+.box1-date{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: rgba(18, 15, 48, 0.568);
+}
+
+.box1-tag, .box1-tag2, .box1-tag3{
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    padding: 2px;
+}
+
+.box1-tag2{
+    left: 65px;
+}
+
+.box1-tag3{
+    left: 110px;
+}
+
+.box1-tag:hover{
+    background-color: rgba(22, 22, 22, 0.466);
+}
+
+.box1-tag2:hover{
+    background-color: rgba(22, 22, 22, 0.466);
+}
+
+.box1-tag3:hover{
+    background-color: rgba(22, 22, 22, 0.466);
+}
+
+.box2{
+    margin-left: 5%;
+    border-bottom: 1px solid rgba(39, 81, 197, 0.322);
+}
+
+.box2-h3, .read-more-btn{
+    color: rgba(42, 52, 125);
+}
+
+.read-more-btn{
+    margin: 0px;
+    transition: 0.5s ease;
+}
+
+.read-more-btn:hover{
+    border-bottom: 1px solid rgba(42, 52, 125);
+    margin-left: 7px;
+}
+
+.news-box2{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;margin-left: 12.25%;
+    width: 70%;
+}
+
+.box3, .box4{
+    position: relative;
+    width: 50%;
+}
+.box3{
+    margin-right: 25px;
+}
+
+.minibox{
+    position: absolute;
+    top: 75px;
+    left: 80px;
+}
+.minibox img{
+    width: 50px;
+}
+
+.minibox1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 75px;
+    left: 150px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.minibox1 span{
+    margin-bottom: 7px;
+    display: flex;
+}
+
+.box4-txt{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.589);
+    display: flex;
+    flex-direction: column;
+}
+
+.learn-more-ab{
+    background-color: rgba(39, 81, 197, 0.829);
+    padding: 10px 30px;
+    border-bottom-right-radius: 26px;
+    border-top-left-radius: 26px;
+    transition: background-color 0.3s ease;
+    color: cornsilk;
+    font-weight: bold;
+    width: 30px;
+    margin: 15px 0px 0px 185px;
+  }
+
+  .learn-more-ab:hover{
+    background-color: rgb(63, 75, 29);
+
+  }
+
+  /*responsive*/
+@media screen and (max-width:1024px) {
+    .box1-tag, .box1-tag2, .box1-tag3 {
+        bottom: 34px;
+    }
+    .learn-more-ab {
+        padding: 6px 27px;
+        margin: 15px 0px 0px 128px;
+    }
+}
+@media screen and (max-width:1000px) {
+    p{
+        font-size: 12px;
+    }
+    .learn-more-ab {
+        margin: 15px 0px 0px 119px;
+    }
+    .minibox {
+        position: absolute;
+        top: 75px;
+        left: 52px;
+    }
+    .minibox1 {
+        position: absolute;
+        top: 69px;
+        left: 123px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    p{
+        font-size: 10px;
+    }
+    .learn-more-ab {
+        margin: 15px 0px 0px 106px;
+    }
+    .box2-h3, .read-more-btn {
+        font-size: 15px;
+    }
+    .minibox1 {
+        position: absolute;
+        top: 52px;
+        left: 117px;
+    }
+    .minibox {
+        position: absolute;
+        top: 60px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .box1-img {
+        width: 287px;
+        height: 191px;
+    }
+    .learn-more-ab {
+        padding: 8px 19px;
+        border-bottom-right-radius: 18px;
+        border-top-left-radius: 18px;
+        font-size: 10px;
+        margin: 0px 0px 0px 95px;
+    }
+    .minibox1 {
+        position: absolute;
+        top: 48px;
+        left: 97px;
+    }
+    .minibox {
+        position: absolute;
+        top: 56px;
+        left: 40px;
+    }
+}
+@media screen and (max-width:700px) {
+    .box1-img {
+        width: 227px;
+        height: 163px;
+    }
+    .learn-more-ab {
+        margin: -5px 0px 0px 79px;
+    }
+    .minibox1 {
+        position: absolute;
+        top: 40px;
+        left: 90px;
+    }
+    .minibox1 span{
+        font-size: 10px;
+    }
+    h4{
+        margin-bottom: 1px;
+    }
+    .minibox {
+        position: absolute;
+        top: 50px;
+        left: 35px;
+    }
+    .box1-tag2 {
+        left: 45px;
+    }
+    .box1-tag3 {
+        left: 72px;
+    }
+    .box1-tag, .box1-tag2, .box1-tag3 {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    p {
+        font-size: 9px;
+    }
+    .box2-h3{
+        font-size: 11px;
+    }
+    .read-more-btn {
+        font-size: 9px;
+    }
+    .box1-img {
+        width: 217px;
+        height: 138px;
+    }
+    .learn-more-ab {
+        margin: 15px 0px 0px 120px;
+    }
+    .minibox1 {
+        position: absolute;
+        top: 70px;
+        left: 120px;
+        font-size: 12px;
+    }
+    .minibox {
+        position: absolute;
+        top: 70px;
+        left: 55px;
+    }
+    .box1-tag2 {
+        left: 45px;
+    }
+    .box1-tag3 {
+        left: 72px;
+    }
+    .box1-tag, .box1-tag2, .box1-tag3 {
+        font-size: 9px;
+    }
+    .arrow{
+        width: 8px;
+    }
+    .news-box2 {
+        flex-direction: column;
+        margin-left: 23.25%;
+        width: 70%;
+    }
+    .news-box {
+        
+        width: 89%;
+        margin-top: 20px;
+    }
+    .box3, .box4 {
+        position: relative;
+        width: 75%;
+    }
+    .box3{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    section{
+        margin-top: 150px;
+        margin-left: 9.25%;
+        width: 80%;
+    }
+    .news-box2 {
+        margin-left: 18.25%;
+        width: 82%;
+    }
+}
+@media screen and (max-width:470px) {
+    section{
+        margin-left: 0.25%;
+        width: 100%;
+    }
+    
+    .box3, .box4 {
+        position: relative;
+        width: 100%;
+    }
+    .news-box2 {
+        margin-left: 10.25%;
+        width: 82%;
+    }
+    h2{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:380px) {
+    .box1-img {
+        width: 140px;
+        height: 136px;
+        margin-top: 5px;
+    }
+    .minibox {
+        position: absolute;
+        top: 43px;
+        left: 24px;
+    }
+    .minibox1 {
+        position: absolute;
+        top: 39px;
+        left: 68px;
+        font-size: 10px;
+    }
+    .minibox img{
+        width: 30px;
+    }
+    .learn-more-ab {
+        margin: 7px 0px 0px 86px;
+    }
+    .box1-tag, .box1-tag2, .box1-tag3 {
+        bottom: 10px;
+    }
+}

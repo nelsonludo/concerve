@@ -1,0 +1,365 @@
+
+.atext{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center
+}
+
+.ah2{
+    color: rgb(42, 51, 125);      
+}
+.loner{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.big-box1{
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 100px;
+}
+.box-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.div1{
+text-align: left;
+width: 60%;
+background-color: rgba(96, 243, 66, 0.774);
+padding: 55px 55px 55px 55px;
+font-size: 20px;
+color: rgb(255, 255, 255);
+}
+
+.div1 h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.div2{
+width: 40%;
+background-color: rgba(108, 197, 56, 0.774);
+padding: 55px 55px 55px 55px;
+font-size: 20px;
+color: rgb(255, 255, 255);
+}
+
+.div2 h3{
+color: rgb(42, 51, 125);
+text-transform: uppercase;      
+}
+
+.div1ii{
+    background-color: rgba(243, 107, 66, 0.774);
+}
+.div2ii{
+    background-color: rgba(190, 84, 52, 0.774);
+}
+.div1iii{
+    background-color: rgba(66, 243, 160, 0.774);
+}
+.div2iii{
+    background-color: rgba(53, 192, 127, 0.774);
+}
+.div1iv{
+    background-color: rgba(158, 66, 243, 0.774);
+}
+.div2iv{
+    background-color: rgba(109, 48, 167, 0.774);
+}
+/*the fucking slider*/
+
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4{
+    display: none;
+}
+
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.sub p{
+    font-size: 35px;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.sub img{
+    width: 60px;
+    height: 60px;
+    align-self: center;
+    margin-right: 5%;
+}
+
+.mySlides1 a{
+    color: #ccc;
+    text-decoration: underline;
+}
+.mySlides2 a{
+    color: #ccc;
+    text-decoration: underline;
+}
+.mySlides3 a{
+    color: #ccc;
+    text-decoration: underline;
+}
+.mySlides4 a{
+    color: #ccc;
+    text-decoration: underline;
+}
+
+
+.slide{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.dot{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    background-color: rgba(255, 228, 196, 0);
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s;
+}
+
+.active, .dot:hover{
+    background-color: rgb(42, 51, 125);
+}
+
+
+
+
+.billboardp{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+    filter: blur(4px);
+}
+
+
+.scrolling-b-active{
+    filter: blur(1px);
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+user-select: none;
+}
+  
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.big-box1-img{
+    width:100%;
+}
+
+@media screen and (max-width:900px) {
+    .next {
+        left: 179px;
+    }
+}
+@media screen and (max-width:800px) {
+    .big-box1-img {
+        width: 105.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .big-box1-img {
+        width: 110.2%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    section {
+        width: 77%;
+    }
+    .sub img {
+        width: 50px;
+        height: 50px;
+    }
+    .sub p {
+        font-size: 30px;
+    }
+    .next {
+        left: 158px;
+    }
+    .div2 {
+        padding: 10px 55px 55px 55px;
+        height: 475px;
+    }
+    .div1 {
+        padding: 10px 55px 55px 55px;
+        height: 475px;
+    }
+    .div1 span{
+        font-size: 17px;
+    }
+    .big-box1 {
+        width: 87%;
+        margin-left: 7%;
+    }
+    .big-box1-img {
+        width: 120.5%;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .big-box1-img {
+        width: 122.5%;
+    }
+}
+@media screen and (max-width:730px) {
+    .big-box1-img {
+        width: 124.5%;
+    }
+}
+@media screen and (max-width:720px) {
+    .big-box1-img {
+        width: 126.5%;
+    }
+}
+@media screen and (max-width:710px) {
+    .big-box1-img {
+        width: 128.5%;
+    }
+}
+@media screen and (max-width:700px) {
+    .big-box1-img {
+        width: 129.5%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .big-box1 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .div1 {
+        width: 50%;
+    }
+    .div2 {
+        width: 32.5%;
+    }
+}
+
+
+@media screen and (max-width:550px) {
+    .box-div {
+        flex-direction: column;
+    }
+    .div1 {
+        width: 100%;
+        margin-left: 2%;
+        height: 275px;
+    }
+    .div2 {
+        width: 100%;
+        margin-left: 2%;
+        height: 275px;
+    }
+    .sub p {
+        width: 80%;
+    }
+    .prev {
+        left: -34px;
+        top: 60%;
+    }
+    .next {
+        left: 403px;
+        top: 60%;
+    }
+    .big-box1-img {
+        display: none;
+    }
+    
+    .atext {
+        width: 89%;
+        margin-left: 5%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .next {
+        left: 280px;
+    }
+    .div1 {
+        width: 90%;
+        margin-left: 3%;
+        height: 365px;
+    }
+    .div2 {
+        width: 90%;
+        margin-left: 3%;
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .sub p {
+        font-size: 25px;
+    }
+    .div1 {
+        width: 85%;
+        margin-left: 3%;
+        height: auto;
+    }
+    .div2 {
+        width: 85%;
+        margin-left: 3%;
+        height: auto;
+    }
+    .next {
+        left: 235px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .div1 {
+        width: 85%;
+        margin-left: 0;
+    }
+    .div2 {
+        width: 85%;
+        margin-left: 0;
+    }
+    .next {
+        left: 185px;
+    }
+}

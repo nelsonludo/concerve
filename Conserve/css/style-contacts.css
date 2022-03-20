@@ -1,0 +1,121 @@
+section{
+    margin-top: 200px;
+    margin-left: 12.5%;
+    width: 73%;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+input, textarea{
+    border: none;
+    padding: 10px 13px 10px 0px;
+}
+input, textarea:focus{
+    outline: none;
+}
+
+label{
+    color: rgb(151, 151, 151);
+}
+.box1{
+    width: 60%;
+}
+.box2{
+    width: 50%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 span{
+    margin-bottom: 8px;
+}
+
+
+.box3{
+    margin: 10px;
+}
+
+.box3 span{
+    margin-left: 10px;
+    color: rgb(151, 151, 151);
+}
+
+.form-boxes{
+    border:2px solid rgba(39, 81, 197, 0.829);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom-right-radius: 26px;
+    border-top-left-radius: 26px;
+}
+
+.send-btn{
+    background-color: rgba(39, 81, 197, 0.829);
+    padding: 5px 25px;
+    margin-top: 10px;
+    border: none;
+    border-bottom-right-radius: 26px;
+    border-top-left-radius: 26px;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    color: cornsilk;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.send-btn:hover{
+    background-color: rgb(63, 75, 29);
+}
+
+h3{
+    color: rgba(39, 81, 197, 0.829);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.error-message{
+    color: red;
+    visibility: hidden;
+}
+
+.box2-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow{
+    width: 19px;
+    height: 19px;
+    margin: 0 10px 0 10px;
+}
+
+@media screen and (max-width:700px) {
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    .box2 {
+        width: 100%;
+        margin-left: 54px;
+        margin-top: 50px;
+    }
+    .box1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .box2 {
+        margin-left: 20px;
+    }
+}
